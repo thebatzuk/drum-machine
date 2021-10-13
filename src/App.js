@@ -1,5 +1,6 @@
 //import logo from './logo.svg';
 import './App.css';
+//import Social from './Social';
 import React from 'react';
 
 const drumpadList = [
@@ -68,6 +69,18 @@ const buttonStylePressed = {
   top: "5px",
 };
 
+class Social extends React.Component {
+  render() {
+      return(
+          <div id="social-footer">
+            <p>learning project by thebatzuk. </p>
+            <a href="https://twitter.com/thebatzuk" target="_blank" rel="noopener">twitter</a>
+            <span> - </span>
+            <a href="https://github.com/thebatzuk" target="_blank" rel="noopener">github</a>
+          </div>
+      );
+  }
+}
 
 const Display = (props) => {
   return (
@@ -170,7 +183,7 @@ class App extends React.Component {
     ))
     return (
       <div className="App">
-        <header>
+        <header id="header-title">
           <h1>DRUM MACHINE</h1>
         </header>
         <section>
@@ -181,6 +194,9 @@ class App extends React.Component {
             {drumpadsRender}
           </div>
         </section>
+        <footer>
+          <Social />
+        </footer>
       </div>
     );
   }

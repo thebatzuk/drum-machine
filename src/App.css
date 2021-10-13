@@ -2,12 +2,16 @@ body {
   background-color: white;
 }
 
+p {
+  margin: 0;
+}
+
 .App {
   text-align: center;
 }
 
-header {
-  height: 30vh;
+#header-title {
+  height: 20vh;
 }
 
 #drum-machine {
@@ -48,3 +52,13 @@ header {
 .drum-label {
   display: block;
 }
+
+#social-footer {
+  height: 10vh;
+  margin: 0;
+  padding: 3vh 0;
+  font-size: 0.6em;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
