@@ -74,9 +74,9 @@ class Social extends React.Component {
       return(
           <div id="social-footer">
             <p>learning project by thebatzuk. </p>
-            <a href="https://twitter.com/thebatzuk" target="_blank" rel="noopener">twitter</a>
+            <a href="https://twitter.com/thebatzuk" target="_blank" rel="noreferrer">twitter</a>
             <span> - </span>
-            <a href="https://github.com/thebatzuk" target="_blank" rel="noopener">github</a>
+            <a href="https://github.com/thebatzuk" target="_blank" rel="noreferrer">github</a>
           </div>
       );
   }
